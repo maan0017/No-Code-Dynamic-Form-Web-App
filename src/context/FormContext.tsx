@@ -62,6 +62,7 @@ export const TaskProvider: React.FC<{ children: React.ReactNode }> = ({
   );
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const useTasks = () => {
   const context = useContext(TaskContext);
   if (context === undefined) {

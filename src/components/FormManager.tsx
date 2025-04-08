@@ -23,7 +23,7 @@ export default function FormManager() {
           <div className="min-w-[50vw] h-[75vh] text-gray-500 font-bold">
             <EditArea />
           </div>
-          <div className="w-full m-1 p-2 border-l-2">
+          <div className="w-full max-h-[74vh] m-1 p-2 border-l-2">
             <FieldOption type="Text/Text Field" />
             <FieldOption type="Checkboxes" />
             <FieldOption type="Radio Buttons" />

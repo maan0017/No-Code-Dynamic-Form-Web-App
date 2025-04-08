@@ -6,18 +6,20 @@ export default function HomePage() {
       <h1 className="font-bold text-3xl">
         Welcome to NO-Code Dynamic Form Generation Web App.
       </h1>
-      <Link
-        to={"/createForm"}
-        className="hover:underline hover:text-blue-500 m-2 p-2"
-      >
-        Create New Form
-      </Link>
-      <Link
-        to={"/existingForms"}
-        className="hover:underline hover:text-blue-500 m-2"
-      >
-        See Existing Forms
-      </Link>
+      <div className="my-10">
+        <Link
+          to={"/create-form"}
+          className="hover:underline hover:text-blue-700 m-10 text-blue-400 cursor-pointer"
+        >
+          Create New Form
+        </Link>
+        <Link
+          to={"/existing-forms"}
+          className="hover:underline hover:text-blue-700 m-10 text-blue-400 cursor-pointer"
+        >
+          See Existing Forms
+        </Link>
+      </div>
     </div>
   );
 }
