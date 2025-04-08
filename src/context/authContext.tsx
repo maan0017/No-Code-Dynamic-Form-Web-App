@@ -6,8 +6,8 @@ type User = {
 };
 
 const admin: User = {
-  isAuthenticated: false,
-  role: "user", // change to "user" or null to test access control
+  isAuthenticated: true,
+  role: "admin", // change to "user" or null to test access control
 };
 
 const AuthContext = createContext<User>(admin);
